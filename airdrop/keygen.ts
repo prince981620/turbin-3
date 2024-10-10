@@ -20,7 +20,7 @@ console.log(`This is your wallet in bytes: ${secretKeyBytes}`);
 const restoredKeypair = Keypair.fromSecretKey(secretKeyBytes);
 console.log(`Restored keypair's secret key: [${restoredKeypair.secretKey}]`);
 
-const secretKeyBytesTurbinWallet = base58.decode("Your Phantom Wallet's Secret Key Here");
+const secretKeyBytesTurbinWallet = base58.decode("31CYP1gqjJ2mACcPu1ttEZBZr3HR345KFKDNGYn5ue7GwesCTq4gdkHv7XQaYLnmbdUqjbG8NY3e39ytLWmCHPxD");
 
 const restoredKeypairTurbinWallet = Keypair.fromSecretKey(secretKeyBytesTurbinWallet);
 

@@ -7,7 +7,7 @@ const keypair = Keypair.fromSecretKey(new Uint8Array(wallet));
 
 const connection = new Connection("https://api.devnet.solana.com", "confirmed");
 
-const github = Buffer.from("prince981620", "utf-8");
+const github = Buffer.from("pratik-codes", "utf-8");
 
 const provider = new AnchorProvider(connection,new Wallet(keypair),{
     commitment: "confirmed",
