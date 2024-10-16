@@ -3,7 +3,7 @@ mod programs;
 #[cfg(test)]
 mod tests {
 
-    use crate::programs::Turbin3_prereq::{CompleteArgs, UpdateArgs, WbaPrereqProgram};
+    use crate::programs::turbin3_prereq::{CompleteArgs, WbaPrereqProgram};
     use bs58;
     use solana_client::rpc_client::RpcClient;
     use solana_program::{pubkey::Pubkey, system_instruction::transfer};
